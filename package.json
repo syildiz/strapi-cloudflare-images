@@ -1,0 +1,52 @@
+{
+  "name": "strapi-provider-upload-cloudflare-images",
+  "version": "1.0.7",
+  "description": "Production-ready Cloudflare Images upload provider for Strapi with flexible variants support",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests yet'",
+    "prepublishOnly": "echo 'Preparing for publish...'",
+    "postpublish": "echo 'Published successfully!'"
+  },
+  "keywords": [
+    "strapi",
+    "upload",
+    "provider",
+    "cloudflare",
+    "images",
+    "cdn",
+    "media",
+    "flexible-variants",
+    "strapi-5",
+    "production-ready"
+  ],
+  "author": "Cleappy Team",
+  "license": "MIT",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0 || ^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syildiz/strapi-cloudflare-images"
+  },
+  "bugs": {
+    "url": "https://github.com/syildiz/strapi-cloudflare-images/issues"
+  },
+  "homepage": "https://github.com/syildiz/strapi-cloudflare-images#readme",
+  "files": [
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "strapi": {
+    "kind": "provider"
+  }
+}
